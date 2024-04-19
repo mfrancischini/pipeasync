@@ -1,0 +1,38 @@
+[
+    {
+      "codigo": "AL001",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "fecha_nacimiento": "2005-03-15",
+      "curso_inscripto": "Desaroolovo Web"
+    },
+    {
+      "codigo": "AL002",
+      "nombre": "María",
+      "apellido": "González",
+      "fecha_nacimiento": "2006-07-21",
+      "curso_inscripto": "Javascript"
+    },
+    {
+      "codigo": "AL003",
+      "nombre": "Carlos",
+      "apellido": "Martínez",
+      "fecha_nacimiento": "2005-11-10",
+      "curso_inscripto": "Desaroolovo Web"
+    },
+    {
+      "codigo": "AL004",
+      "nombre": "Laura",
+      "apellido": "López",
+      "fecha_nacimiento": "2006-01-30",
+      "curso_inscripto": "Javascript"
+    },
+    {
+      "codigo": "AL005",
+      "nombre": "Pedro",
+      "apellido": "Sánchez",
+      "fecha_nacimiento": "2005-09-03",
+      "curso_inscripto": "Angular"
+    }
+  ]
+  

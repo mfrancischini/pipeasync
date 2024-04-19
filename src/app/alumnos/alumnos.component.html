@@ -1,0 +1,31 @@
+
+
+ <section *ngIf="(post$ | async) as posts; else loaderOrError">
+    <section *ngIf="(postNotas$ | async) as postNotas; else loaderOrError">
+      <div *ngFor="let post of posts">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>{{ post.codigo }}</mat-card-title>
+            <mat-card-subtitle>{{ post.nombre }}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Apellido: {{ post.apellido }}</p>
+            <p>Fecha de nacimiento: {{ post.fecha_nacimiento }}</p>
+            <p>Curso inscrito: {{ post.curso_inscripto }}</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button (click)="mostrarNota(post.codigo)">Ver Nota</button>
+          </mat-card-actions>
+        </mat-card>
+        <hr>
+      </div>
+    </section>
+  </section>
+  
+  <ng-template #loaderOrError>
+    <section *ngIf="hasError; else loader">
+      Ha ocurrido un error, refresca la página para intentar nuevamente
+    </section>
+    <ng-template #loader>Loading...</ng-template>
+  </ng-template>
+  

@@ -1,0 +1,28 @@
+[
+    {
+      "codigo_alumno": "AL001",
+      "aprobado": false,
+      "nota": 2.6
+    },
+    {
+        "codigo_alumno": "AL002",
+        "aprobado": true,
+        "nota": 9
+      },
+      {
+        "codigo_alumno": "AL003",
+        "aprobado": true,
+        "nota": 8.2
+      },
+      {
+        "codigo_alumno": "AL004",
+        "aprobado": true,
+        "nota": 7.7
+      },
+      {
+        "codigo_alumno": "AL005",
+        "aprobado": false,
+        "nota": 1
+      }
+  ]
+  

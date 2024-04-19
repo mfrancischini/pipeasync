@@ -1,0 +1,14 @@
+[
+    {
+      "codigo": "00001",
+      "nombre": "Maximiliano",
+      "apellido": "Rigotti",
+      "curso_titular": "Desaroolovo Web"
+    },
+    {
+        "codigo": "00002",
+        "nombre": "Mariano",
+        "apellido": "Davone",
+        "curso_titular": "JavaScript"
+      }
+  ]
