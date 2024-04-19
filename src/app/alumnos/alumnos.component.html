@@ -14,7 +14,8 @@
             <p>Curso inscrito: {{ post.curso_inscripto }}</p>
           </mat-card-content>
           <mat-card-actions>
-            <button mat-button (click)="mostrarNota(post.codigo)">Ver Nota</button>
+            <button mat-icon-button (click)="mostrarNota(post.codigo)"><mat-icon>visibility</mat-icon> Ver Nota</button>
+            
           </mat-card-actions>
         </mat-card>
         <hr>
@@ -28,4 +29,3 @@
     </section>
     <ng-template #loader>Loading...</ng-template>
   </ng-template>
-  

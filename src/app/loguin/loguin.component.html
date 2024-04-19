@@ -1,2 +1,6 @@
 <div *ngIf="userOberser">{{ userOberser.nombre | uppercase}}</div>
-<button type="button" (click)="login()">Login</button>
+
+<button mat-icon-button (click)=" login()"><mat-icon>login</mat-icon> Login</button>
+<p></p>
+<button mat-icon-button (click)=" logout()"><mat-icon>logout</mat-icon> Logout</button>
+         

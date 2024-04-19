@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { LoguinComponent } from './loguin.component';
 import { LoguinRoutingModule } from './loguin-routing.module';
 import { MatCardModule } from '@angular/material/card';
-
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -13,7 +14,10 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     LoguinRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+    MatButtonModule
+    
   ]
 })
 export class LoguinModule { }

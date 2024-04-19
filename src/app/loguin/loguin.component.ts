@@ -9,6 +9,7 @@ import { Imaestros } from '../common/interfaces';
   styleUrls: ['./loguin.component.scss']
 })
 export class LoguinComponent implements OnInit {
+
   authUserChangeSubscription?: Subscription;
   userOberser: Imaestros | null | undefined = null;
   authUserSubscription?: Subscription;
@@ -38,4 +39,7 @@ export class LoguinComponent implements OnInit {
     this.authService.login();
   }
 
+  logout() {
+    this.authService.logout();
+  }
 }

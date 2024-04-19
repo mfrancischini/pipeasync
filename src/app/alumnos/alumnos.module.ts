@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { AlumnosRoutingModule } from './alumnos-routing.module';
 import { AlumnosComponent } from './alumnos.component';
 import { MatCardModule } from '@angular/material/card';
-
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,9 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     AlumnosRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+    MatButtonModule
   ]
 })
 export class AlumnosModule { }
